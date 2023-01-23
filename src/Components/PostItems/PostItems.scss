@@ -1,0 +1,23 @@
+.post-wrapper
+{
+  border: 1px solid rgb(185, 182, 182);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  position: relative;
+
+  .post-author{
+    display: flex;
+    align-items: center;
+  }
+  .dot{
+    text-align: end;
+    position: absolute;
+    top:30px;
+    right: 10px;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+  }
+}
